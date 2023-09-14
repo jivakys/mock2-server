@@ -8,3 +8,7 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(port);
+
+// "scripts":{
+// "server":"hson-server --watch db.json"
+// }
